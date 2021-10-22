@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doll Family</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div class="container">
+    <center>
+<b class="btn btn-default heading" style="font-size: large;">IMAGE RECOGNITION</b>
+ <br><br>
+    <b>Intro</b>
+    <p>This app recognises only few dolls. The name of them ar written below
+    </p>
+    <br><br>
+    <h3>Elephant</h3>
+    <hr>
+    <h2> Barbie   </h2>
+    <hr>
+    <h4>Doreamon</h4>
+    <hr>
+    <h5>Rabbit</h5>
+    <hr>
+    <label>Webcam View - </label>
+    <div id="camera">
+    </div>
+
+    <br><br>
+<div id="result"></div>
+    <br><br>
+<button onclick="take_snapshot()" class="btn btn-info">Capture Image</button>
+    <br><br>
+    <button onclick="identify()" class="btn btn-success">Identify Image</button>
+    <br><br>
+
+    <p style="font-size: 22px;">Object :  </p>
+    <p style="font-size: 22px;">Accuracy :  </p>
+</center>
+</div>
+</body>
+</html>
+<script src="main.js"></script>

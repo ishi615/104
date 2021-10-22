@@ -1,0 +1,35 @@
+h3{
+    animation: same 5s infinite;
+}
+@keyframes same {
+    from{font-size: 50px;color: chartreuse;}
+    50%{font-size:25px; color: black;}
+    to{font-size: 10px; color: blueviolet;}
+}
+h2{
+    animation: h2 5s infinite;
+}
+@keyframes h2 {
+    from{font-size: 70px;color:aqua;}
+    50%{font-size:25px; color: black;}
+    to{font-size: 50px; color:darkcyan}
+}
+h4{
+    animation:h4 5s infinite;
+}
+@keyframes h4 {
+    from{font-size: 20px;color:brown}
+    50%{font-size:25px; color:ivory;}
+    to{font-size: 50px; color:chocolate;}
+}
+h5{
+    animation: h5 5s infinite;
+}
+@keyframes h5 {
+    from{font-size: 10px;color:crimson;}
+    50%{font-size:70px; color:cadetblue}
+    to{font-size: 50px; color:blueviolet;}
+}
+.heading{
+    margin-top: 50px;
+}
